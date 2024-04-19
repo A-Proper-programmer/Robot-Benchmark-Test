@@ -23,6 +23,6 @@ for i in range(0, 4):
     robot.step(480)
 
 # Stop the robot when path is completed, as the robot performance
-# is only computed when the robot has stopped.
+# is only computed when the robot has stoppe d.
 leftWheel.setVelocity(0)
 rightWheel.setVelocity(0)
